@@ -23,6 +23,7 @@ class Form extends Component {
       <form>
         <input
           type="text"
+          placeholder="input your phone number"
           value={this.state.value}
           onChange={this.handleChange}
         />
